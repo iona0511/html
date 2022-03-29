@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        /* a{
+            color:blueviolet;
+            text-decoration:none;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: green;
+            text-decoration: underline;
+        }
+        a:active{
+            color:blue;
+        } */
+        a, a:visited{
+            color: red;
+            text-decoration: none;
+        }
+        a:hover, a:active{
+            color: blue;
+            text-decoration: underline;
+        }        
+/* ----------------------------------------------------------------------- */
+        a.box1, a:visited.box1{
+            color: pink;
+            text-decoration: none;
+        }
+        a:hover.box1, a:active.box1{
+            color: green;
+            text-decoration: underline;
+        }  
+    </style>
+</head>
+<body>
+    <a href="https://tw.yahoo.com/?p=us">
+        連結到外部
+    </a><br>
+    <a href="0329.div.html">
+        連結到內部
+    </a><br>
+    <a href="0329.html#tag1">
+        連結到0329特定位置
+    </a><br>
+    <!-- 等於後面是信寄的主旨 -->
+    <a href="mailto:lilly800511@gmail.com?subject=test">
+        寄信給我
+    </a><br>
+    <a href="Git-2.35.1.2-64-bit.exe">
+        下載
+    </a>
+    <br>
+    <a href="" class="box1">第二種連結</a>
+</body>
+</html>
