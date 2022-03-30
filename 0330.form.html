@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{ 
+            width: 200px;
+            margin: 20 auto;
+            border:1px solid #000;
+            border-radius: 20px;
+            background-color: rgb(224, 223, 224);
+        }
+        legend{
+            border:1px solid #000;
+            border-radius: 20px;
+            padding: 10px 20px;
+            background-color: rgb(224, 223, 224);
+        }
+        .st{
+            width: 400px;
+            margin: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px ; 
+        }
+        .title{
+            width: 100px;
+            float: left;
+            text-align: right;
+            padding-right: 30px;
+        }
+        .btn{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:lilly800511@gmail.com" method="post" enctype="text">
+        <fieldset>
+   
+            <legend>填寫註冊資料<em>(必填)</em></legend>
+            <div class="st">
+                <label for="" class="title">姓名：</label>
+                <input type="text" name="" id="" size="30" maxlength="5" placeholder="請輸入真實中文姓名">
+            </div>
+            <div class="st">
+                <label for="" class="title">性別：</label>
+                <input type="radio" name="gender" value="male">男
+                <input type="radio" name="gender" value="female">女
+            </div>
+            <div class="st">
+                <label for="" class="title">生日：</label>
+                <input type="date">
+            </div>
+            <div class="st">
+                <label for="" class="title">居住區域：</label>
+                <select name="livingIn" id="">
+                    <!-- 複選請使用multiple -->
+                    <option value="TPH">新北市</option>
+                    <option value="TPE">台北市</option>
+                    <option value="">桃園市</option>
+                    <option value="">基隆市</option>
+                    <option value="">台中市</option>
+                    <option value="">台南市</option>
+                    <option value="">高雄市</option>
+                    <option value="">基隆市</option>
+
+                </select>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="st">
+                <label for="" class="title">E-mail：</label>
+                <input type="text" class="text" size="30" placeholder="請使用GOOGLE信箱">
+            </div>
+            <div class="st">
+                <label for="" class="title">興趣：</label>
+                <input type="checkbox" name="hobby" value="music">音樂
+                <input type="checkbox" name="hobby" value="hiking">爬山
+                <input type="checkbox" name="hobby" value="movie">電影
+                <input type="checkbox" name="hobby" value="cooking">烹飪
+
+            </div>
+            <div class="st">
+                <label for="" class="title">設定密碼：</label>
+                <input type="password" class="text" size="30" maxlength="10" placeholder="請輸入英文數字共10碼">
+            </div>
+            <div class="st">
+                <label for="" class="title">密碼確認：</label>
+                <input type="password" class="text" size="30" maxlength="10" placeholder="請輸入英文數字共10碼">
+            </div>
+            <div class="st">
+                <label for="" class="title">照片：</label>
+                <input type="file" class="type">
+            </div>
+            <div class="st">
+                <label for="" class="title">意見：</label>
+                <textarea name="" id="" cols="30" rows="4" placeholder="請留下您的建議，謝謝"></textarea>
+            </div>
+            <div class="st">
+                <input type="checkbox" name="member" value="agree">我同意 
+                <a href="https://www.google.com.tw/?hl=zh_TW">客戶隱私權益政策</a>與 <a href="http://tw.yahoo.com">客戶服務條款</a>
+
+             
+            </div>
+
+            <div class="st btn">
+                <input type="submit" value="送出">
+                <input type="reset" value="清除">
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
